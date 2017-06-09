@@ -1,0 +1,31 @@
+{
+    "name": "uxiaoxin/Wechat_session",
+    "description": "Notadd Extension for Wechat session ",
+    "type": "notadd-extension",
+    "keywords": ["notadd", "Wechat", "extension"],
+    "homepage": "https://uxiao.xin",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "aing",
+            "email": "53623075@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Notadd\\Wechat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Notadd\\Wechat\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "notadd/installers": "0.5.*",
+        "phpunit/phpunit": "~5.7"
+    }
+}
